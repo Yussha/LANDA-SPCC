@@ -25,9 +25,9 @@
     <header class="flex justify-between items-center pt-4 pb-4 fixed top-0 left-0 right-0 z-40">
         <div class="flex justify-center items-center ml-6 gap-x-3">
             {{-- logo --}}
-            <img src="{{ Vite::asset('resources/assets/images/spcclogo.jpg') }}" class="rounded-full h-20"
+            <img src="{{ Vite::asset('resources/assets/images/spcclogo.jpg') }}" class="rounded-full h-16"
                 alt="spcc logo">
-            <h4 class="text-6xl font-bold text-[#F0F0F0] tracking-wide">LANDAS</h4>
+            <h4 class="text-4xl font-bold text-[#F0F0F0] tracking-wide">LANDAS</h4>
         </div>
 
         {{-- nav links --}}
