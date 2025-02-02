@@ -13,18 +13,21 @@ const overlay = document.getElementById('overlay');
 signupModalBtn.addEventListener('click', () => {
     registerModal.classList.add('active');
     overlay.classList.add('active');
+    document.body.classList.add('no-scroll');
 })
 
 overlay.addEventListener('click', () => {
     registerModal.classList.remove('active');
     loginModal.classList.remove('active');
     overlay.classList.remove('active');
+    document.body.classList.remove('no-scroll');
 })
 
 
 loginModalBtn.addEventListener('click', () => {
     loginModal.classList.add('active');
     overlay.classList.add('active');
+    document.body.classList.add('no-scroll');
 })
 
 gotoSignupBtn.addEventListener('click', () => {

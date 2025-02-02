@@ -46,6 +46,11 @@
     --highlight-color: #fabd02;
 }
 
+/* disabled the scrolling */
+.no-scroll {
+    overflow: hidden;
+}
+
 /* overlay */
 .overlay {
     position: fixed;
