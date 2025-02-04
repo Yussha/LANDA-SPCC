@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -123,12 +123,7 @@
 }
 
 /* NavLinks */
-header {
-    transition: ease-in-out 0.3s;
-}
-
-header.sticky {
-    background-color: var(--nav-bar);
+header.shadow {
     box-shadow: 1px 0px 13px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 0px 13px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 0px 13px 0px rgba(0, 0, 0, 0.75);
@@ -156,6 +151,7 @@ header.sticky {
 .hero-section {
     background-image: url('../assets/images/hero-bg.png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero-section-container {
@@ -205,4 +201,26 @@ header.sticky {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* home second section */
+.second-section-wireframe {
+    background-image: url(../assets/images/WIREFRAME_1.png);
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.second-section-content-container {
+    font-family: "Poppins", serif;
+}
+
+/* home third section */
+.home-third-section {
+    background-image: url('../assets/images/third-section-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

@@ -22,7 +22,8 @@
     <div id="overlay" class="overlay {{ $errors->any() ? 'active' : '' }}"></div>
 
     {{-- Navbar --}}
-    <header class="flex justify-between items-center pt-4 pb-4 fixed top-0 left-0 right-0 z-40">
+    <header
+        class="flex justify-between items-center pt-4 pb-4 fixed top-0 left-0 right-0 z-40 w-[100%] duration-300 ease-in-out">
         <div class="flex justify-center items-center ml-6 gap-x-3">
             {{-- logo --}}
             <img src="{{ Vite::asset('resources/assets/images/spcclogo.jpg') }}" class="rounded-full h-16"

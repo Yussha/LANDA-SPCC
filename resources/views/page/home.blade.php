@@ -29,8 +29,65 @@
 
     </section>
 
-    {{-- About Section --}}
-    {{-- <section>
-        This is about page
-    </section> --}}
+    {{-- home second Section --}}
+    <section class="relative bg-[#F0F0F0] min-h-[100vh] max-h-full w-full pt-[6%] pb-[6%]">
+        {{-- wireframe --}}
+        <div class="second-section-wireframe z-0"></div>
+
+        {{-- about section content --}}
+        <div>
+            <h1 class="text-center font-bold text-[6rem]">Title Section</h1>
+        </div>
+
+        <div class="second-section-content-container  flex items-center justify-center">
+            <div class="p-2 mt-16 grid grid-cols-4 gap-10 w-[80%] h-[auto]">
+                <div class="col-span-2 flex gap-x-3 w-[90%]">
+                    <div>
+                        <h1 class="text-[#8b8785a8] font-bold text-[6rem]">1</h1>
+                    </div>
+                    <div class="mt-7">
+                        <h1 class="text-[3rem] font-medium">Lorem Ipsum</h1>
+                        <p class="text-[1rem]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+                            sapiente dolore.
+                            Architecto soluta explicabo dolorem molestias optio fuga recusandae autem dolorum, voluptate
+                            suscipit id voluptates eum maxime cupiditate, quia sed.</p>
+                    </div>
+                </div>
+                <div class="font-bold text-[3rem] col-span-2 flex gap-x-3 w-[90%] place-self-end">
+                    <div>
+                        <h1 class="text-[#8b8785a8] font-bold text-[6rem] ]">2</h1>
+                    </div>
+                    <div class="mt-7">
+                        <h1 class="text-[3rem] font-medium">Lorem Ipsum</h1>
+                        <p class="text-[1rem] font-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            sapiente dolore.
+                            Architecto soluta explicabo dolorem molestias optio fuga recusandae autem dolorum, voluptate
+                            suscipit id voluptates eum maxime cupiditate, quia sed.</p>
+                    </div>
+                </div>
+                <div></div>
+                <div class="font-bold text-[3rem col-span-2 flex gap-x-3 w-[90%]">
+                    <div>
+                        <h1 class="text-[#8b8785a8] font-bold text-[6rem] ]">3</h1>
+                    </div>
+                    <div class="mt-7">
+                        <h1 class="text-[3rem] font-medium">Lorem Ipsum</h1>
+                        <p class="text-[1rem] font-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            sapiente dolore.
+                            Architecto soluta explicabo dolorem molestias optio fuga recusandae autem dolorum, voluptate
+                            suscipit id voluptates eum maxime cupiditate, quia sed.</p>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+    </section>
+
+    {{-- home 3rd section --}}
+    <section class="home-third-section min-h-[100vh] max-h-full w-full pt-[6%] pb-[6%]">
+        <h1>home 3rd section</h1>
+    </section>
 </x-layout>
