@@ -87,7 +87,74 @@
     </section>
 
     {{-- home 3rd section --}}
-    <section class="home-third-section min-h-[100vh] max-h-full w-full pt-[6%] pb-[6%]">
-        <h1>home 3rd section</h1>
+    <section id="home-third-section"
+        class="home-third-section min-h-[100vh] max-h-full w-full pt-[6%] pb-[6%] flex items-center relative">
+        {{-- for progress --}}
+        <div class="ml-6 flex flex-col justify-center items-center w-[fit-content] gap-5">
+            <h1 class="vertical-text">Step-by-step guide</h1>
+            <div class="vertical-line">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div class="scrollable-content w-[90%] h-[auto] grid grid-cols-2 ml-20 mr-20">
+            {{-- text wrapper --}}
+            <div class="content-container pt-[130px] overflow-hidden">
+                {{-- text content --}}
+                <div class="content active grid grid-cols-2 w-[fit-content] mt-[100px]">
+                    <div class="col-span-2">
+                        <h1 class="text-[#F0F0F0] font-semibold text-[1.6rem] inline">01</h1>
+                        <h1 class="third-section-title active text-[2rem] font-semibold inline">Title 1</h1>
+                    </div>
+                    <div class="col-span-2 pl-[38px]">
+                        <p class="content-para active text-[#FFFFFF] w-[80%]">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.
+                            Facere
+                            vero perferendis vel deleniti numquam amet officia consectetur rerum, ex magni!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content grid grid-cols-2 w-[fit-content] mt-[22px]">
+                    <div class="col-span-2">
+                        <h1 class="text-[#F0F0F0] font-semibold text-[1.6rem] inline">02</h1>
+                        <h1 class="third-section-title text-[2rem] font-semibold inline">Title 2
+                        </h1>
+                    </div>
+                    <div class="col-span-2 pl-[38px]">
+                        <p class="content-para text-[#FFFFFF] w-[80%]">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.
+                            Facere
+                            vero perferendis vel deleniti numquam amet officia consectetur rerum, ex magni!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content grid grid-cols-2 w-[fit-content] mt-[22px]">
+                    <div class="col-span-2">
+                        <h1 class="text-[#F0F0F0] font-semibold text-[1.6rem] inline">03</h1>
+                        <h1 class="third-section-title text-[2rem] font-semibold inline">Title 3
+                        </h1>
+                    </div>
+                    <div class="col-span-2 pl-[38px]">
+                        <p class="content-para text-[#FFFFFF] w-[80%]">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.
+                            Facere
+                            vero perferendis vel deleniti numquam amet officia consectetur rerum, ex magni!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            {{-- image content --}}
+            <div class="place-self-end">
+                <img src="https://picsum.photos/200" alt="" class="h-[500px] w-[600px] object-cover">
+            </div>
+        </div>
     </section>
+
+    {{-- home 4th section --}}
+    <section class="home-fourth-section min-h-[100vh] max-h-full w-full"></section>
 </x-layout>

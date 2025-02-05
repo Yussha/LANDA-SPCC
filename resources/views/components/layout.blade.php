@@ -14,7 +14,7 @@
 
     @vite('resources/css/app.css')
     @vite('resources/js/modal.js')
-    @vite('resources/js/scrollNavbar.js')
+    @vite('resources/js/scrollEffect.js')
 </head>
 
 <body class="relative">
